@@ -1,0 +1,16 @@
+# Bỏ qua tất cả file .pyc
+*.pyc
+
+# Bỏ qua thư mục logs và toàn bộ file trong đó
+logs/
+
+# Bỏ qua file model lớn
+my_model.pt
+*.h5
+
+# Bỏ qua notebook tạm
+*.ipynb_checkpoints/
+
+# Bỏ qua file môi trường
+.env
+venv/
